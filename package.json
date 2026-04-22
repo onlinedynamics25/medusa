@@ -24,10 +24,15 @@
   },
   "dependencies": {
     "@medusajs/admin-sdk": "2.13.1",
+    "@medusajs/cache-redis": "^2.13.6",
     "@medusajs/cli": "2.13.1",
     "@medusajs/dashboard": "^2.13.6",
+    "@medusajs/event-bus-redis": "^2.13.6",
     "@medusajs/framework": "2.13.1",
-    "@medusajs/medusa": "2.13.1"
+    "@medusajs/locking-redis": "^2.13.6",
+    "@medusajs/medusa": "2.13.1",
+    "connect-redis": "^9.0.0",
+    "express-session": "^1.19.0"
   },
   "devDependencies": {
     "@medusajs/test-utils": "2.13.1",
