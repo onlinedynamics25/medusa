@@ -27,6 +27,9 @@ export default defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     },
   },
+  admin: {
+    disable: false, // Skips building the admin UI completely
+  },
   modules: {
     eventBus: {
       resolve: "@medusajs/event-bus-redis",
