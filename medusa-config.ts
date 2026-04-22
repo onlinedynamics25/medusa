@@ -28,7 +28,7 @@ export default defineConfig({
     },
   },
   admin: {
-    disable: true, // Skips building the admin UI completely
+    disable: false, // Skips building the admin UI completely
   },
   modules: {
     eventBus: {
